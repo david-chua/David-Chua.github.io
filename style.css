@@ -1,11 +1,18 @@
 body {
-  background: black;
+  background: white;
 
 }
 h1 {
   font-size: 3em;
-  color: white;
+  color: black;
   text-align: center;
+}
+
+h2 {
+  color: black;
+  font-size: 3em;
+  text-align: center;
+  clear: both;
 }
 
 .Galaxy {
@@ -28,12 +35,15 @@ li {
 
 li a {
     display: inline-block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     height: 50px;
     margin-top: 35px;
+}
+#logo {
+  float: left;
 }
 
 a:hover:not(.active) {
@@ -42,4 +52,24 @@ a:hover:not(.active) {
 
 .active {
 background-color:#4CAF50;
+}
+
+p {
+  color: black;
+  /*text-align: center;*/
+}
+
+.aboutmediv {
+  height: 300px;
+  width: 500px;
+  margin-left:  auto;
+  margin-right: auto;
+}
+
+.BR {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 400px;
+
 }
