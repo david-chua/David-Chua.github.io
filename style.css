@@ -1,32 +1,19 @@
-body {
-  background: white;
-
-}
-h1 {
-  font-size: 3em;
-  color: black;
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
-h2 {
-  color: black;
-  font-size: 3em;
-  text-align: center;
-  clear: both;
-}
-
-.Galaxy {
-  margin-left: auto;
-  margin-right: auto;
-  height: 600px;
-  width: 100%;
-}
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background: linear-gradient(to left,#07485E 20%, #11B8F2 80%);
+
+    /*#0D8DBA*/
+
+    /*linear-gradient(right, #0D8DBA, #11B8F2);*/
 }
 
 li {
@@ -37,39 +24,140 @@ li a {
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 20px;
     text-decoration: none;
     height: 50px;
     margin-top: 35px;
 }
-#logo {
-  float: left;
+
+/*First Page*/
+
+.Intro{
+  height: 300px;
+  vertical-align: middle;
+    /*margin: 18% 0 5% 0;*/
+}
+.Me {
+  text-align: center;
+  color: #0B1321;
+  font-family: 'Merriweather', serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 675%;
+  text-transform: uppercase;
+  letter-spacing: 1%;
+  margin-top: 10%;
+
 }
 
-a:hover:not(.active) {
-    background-color: #111;
+h1 {
+  text-align: center;
+  color: #0B1321;
+  font-family: 'Merriweather', serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 675%;
+  text-transform: uppercase;
+  letter-spacing: 1%;
+  margin-top: 10%;
+
 }
 
-.active {
-background-color:#4CAF50;
+h5 {
+  text-align: center;
+  font-size: 270%;
+  font-family: 'Merriweather', serif;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*Parallax Stuff*/
+.galaxy {
+  background-image: url("./images/Galaxy.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.screen {
+  background-image: url("./images/Screens.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin-top: 11%;
+}
+
+.block-line{
+  height: 1px;
+  margin: 1px;
+  margin: 30px auto;
+  box-sizing: border-box;
+  text-align: center;
+  width: 200px;
+  color: #666;
+  background: rgba(135,135,135,0.5);
+
+}
+
+.Intro{
+  height: 300px;
+  vertical-align: middle;
+    margin: 5% 0 5% 0;
+}
+
+h4{
+  text-align: center;
+  font-size: 270%;
+  font-family: 'Merriweather', serif;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.about_row {
+  display: table;
+  font-size: 400%;
+  text-align: center;
+  vertical-align: middle;
+}
+.column{
+  display: inline-block;;
+  font-size: 150%;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.more{
+  font-size: 30%;
+}
+
+
+/*
+h2 {
+  color: black;
+  font-size: 3em;
+  text-align: center;
+  clear: both;
+}
+
+a:hover {
+    font-size: 1.5em;
 }
 
 p {
   color: black;
-  /*text-align: center;*/
-}
+  text-align: center;*/
+/*}
 
 .aboutmediv {
   height: 300px;
   width: 500px;
   margin-left:  auto;
   margin-right: auto;
-}
-
+}*/
+/*
 .BR {
   margin-left: auto;
   margin-right: auto;
   display: block;
   width: 400px;
 
-}
+}*/
