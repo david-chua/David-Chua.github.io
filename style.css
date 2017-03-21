@@ -118,13 +118,25 @@ h5 {
     margin: 5% 0 5% 0;
 }
 
+.About{
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
 
+}
 
-h4{
+h3{
   text-align: center;
   font-size: 270%;
   font-family: 'Merriweather', serif;
   font-family: 'Roboto Condensed', sans-serif;
+}
+
+.skills{
+  text-align: center;
+  vertical-align: middle;
+  margin-left: 5%;
+  margin-right:s 5%;
 }
 
 
@@ -184,4 +196,8 @@ h4{
 
 .mail, .github, .instagram{
   margin-left: 20px;
+}
+
+p{
+  font-size: 120%;
 }
