@@ -1,0 +1,45 @@
+
+/*//// Welcome Animation ////*/
+.animation-body{
+  background-color: black;
+}
+
+.fly-text{
+  list-style: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.fly-text li{
+  display: inline-block;
+  color: white;
+  margin-right: 50px;
+  font-family: Arial;
+  font-weight: 300;
+  font-size: 340%;
+  transition: all 2.5s ease;
+}
+
+.fly-text li:last-child{
+  margin-right: 0;
+}
+
+.fly-text.hidden li{
+  opacity: 0;
+}
+
+.fly-text.hidden li:nth-child(1){transform: translateX(-300px) translateY(-200px);}
+.fly-text.hidden li:nth-child(2){transform: translateX(40px) translateY(120px);}
+.fly-text.hidden li:nth-child(3){transform: translateX(140px) translateY(-30px);}
+.fly-text.hidden li:nth-child(4){transform: translateX(-40px) translateY(-120px);}
+.fly-text.hidden li:nth-child(5){transform: translateX(-340px) translateY(-250px);}
+.fly-text.hidden li:nth-child(6){transform: translateX(-130px) translateY(120px);}
+.fly-text.hidden li:nth-child(7){transform: translateX(30px) translateY(25px);}
+
+.Button{
+  text-align: center;
+  color: white;
+  margin-top: 500px;
+}

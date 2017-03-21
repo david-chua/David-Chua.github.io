@@ -2,189 +2,30 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
-
-    <title> David Chua: Web Developer</title>
-    <link href="https://fonts.googleapis.com/css?family=Merriweather|Roboto+Condensed" rel="stylesheet">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="portfolio_style.css">
   </head>
+  <body class="animation-body">
 
-<header>
-  <nav>
-    <ul>
-      <li><a href="#contact"><i class="fa fa-folder-open" aria-hidden="true"></i>Contact Me </a></li>
-      <li><a href="#portfolio"><i class="fa fa-desktop" aria-hidden="true"></i> Portfolio</a> </li>
-      <li><a href="#skills"> <i class="fa fa-trophy" aria-hidden="true"></i></i> Skills </a> </li>
-      <li><a href="#aboutme"><i class="fa fa-user-circle-o" aria-hidden="true"></i>About Me</a></li>
-      <li><a href="#home"><i class="fa fa-home" aria-hidden="true"></i><span> Home</span> </a></li>
+  <div>
+    <ul class="fly-text hidden">
+      <li> W </li>
+      <li> E </li>
+      <li> L </li>
+      <li> C </li>
+      <li> O </li>
+      <li> M </li>
+      <li> E </li>
     </ul>
-  </nav>
-</header>
-<body>
 
-<div id="home" class="Intro">
-  <h1 class="Me"> David Chua </h1>
-  <div class="block-line"></div>
-  <h5> Web Developer || Foodie || Fitness Enthusiast </h5>
-</div>
+    <a href="portfolio.html"> <div class="Button">
+      <h2> Meet the Developer </h2>
+    </div></a>
 
-<div class="galaxy"></div>
-
-<div id="aboutme" class="About">
-    <h1> About Me </h1>
-    <div class="block-line"></div>
-    <div class="paragraph_summary">
-    <h3> I am a fullstack web developer, a foodie, an aspiring fitness enthusiast, and a visual specialist who has a keen eye for details as well as a passion for coding. I tend to think creatively, and become a resourceful problem solver; a jack of all trades. Coding brings out my inner design to create and challenges me in each way possible. My eagerness to acquire more information allows me to thrive and dedicate myself in becoming a stronger, and more knowledgeable developer everyday. </h3>
-  </div>
-  </div>
-
-<div class="screen"></div>
-
-<div id="skills">
-  <h1> Language, Frameworks, and Tools </h1>
-    <div class="block-line"></div>
-
-    <div class="about_row">
-<!-- angularJS -->
-    <div class="column">
-      <i class="devicon-angularjs-plain colored"></i>
-    </div>
-<!-- CSS3 -->
-    <div class="column">
-      <i class="devicon-css3-plain"></i>
-    </div>
-  <!-- Rails -->
-    <div class="column">
-      <i class="devicon-rails-plain-wordmark colored"></i>
-    </div>
-<!-- HTML5 -->
-    <div class="column">
-      <i class="devicon-html5-plain-wordmark colored"></i>
-    </div>
-    <!-- Node JS -->
-    <div class="column">
-      <i class="devicon-nodejs-plain-wordmark"></i>
-    </div>
-<!-- Javascript -->
-    <div class="column">
-      <i class="devicon-javascript-plain"></i>
-    </div>
-<!-- Ruby -->
-    <div class="column">
-      <i class="devicon-ruby-plain-wordmark colored"></i>
-    </div>
-<!-- jQuery -->
-    <div class="column">
-      <i class="devicon-jquery-plain-wordmark colored"></i>
-    </div>
-<!-- PostgreSQL -->
-    <div class="column">
-      <i class="devicon-postgresql-plain-wordmark colored"></i>
-    </div>
-<!-- MongoDB -->
-    <div class="column">
-    <i class="devicon-mongodb-plain-wordmark"></i></i>
-    </div>
-  <!-- Git -->
-    <div class="column">
-      <i class="devicon-git-plain-wordmark"></i>
-    </div>
-<!-- Github -->
-    <div class="column">
-      <i class="devicon-github-plain-wordmark"></i>
-    </div>
-<!-- Heroku -->
-    <div class="column">
-      <i class="devicon-heroku-plain-wordmark colored"></i>
-    </div>
-    <!-- Google Chrome -->
-    <div class="column">
-      <i class="devicon-chrome-plain-wordmark"></i>
-    </div>
-  <!-- Trello -->
-  <div class="column">
-    <i class="devicon-trello-plain-wordmark colored"></i>
-  </div>
-  <!-- Photoshop -->
-  <div class="column">
-    <i class="devicon-photoshop-plain colored"></i>
-  </div>
-  <!-- and more -->
-  <div class="more" class="column">
-    <h3> & more.. </h4>
-  </div>
-  </div>
-</div>
-
-<div class="global"> </div>
-
-<div id="portfolio" >
-    <h1> Portfolio </h1>
-    <div class="block-line"></div>
-</div>
-
-<div class="container">
-
-  <div class="Apps">
-    <img src="./images/Gains.png">
-  </div>
-
-  <div class="About_Apps">
-    <p> <a href="https://gains-for-days.herokuapp.com/#/" target="_blank"> Training For Gains</a> <br />
-    <small> A work out logging application created using Ruby on Rails backend and a NodeJS/AngularJS front end. I created the app as a gym enthusiast who sees people writing their workout routine at a gym when they can lose the notepad and have it be entirely mobile. This way, the app can store the data without every worrying about forgetting a notepad to the gym. </small> </p>
-  </div>
-
-  <div class="Apps" >
-    <img src="./images/Kogi.jpg">
-  </div>
-
-  <div class="About_Apps">
-    <p> <a href="https://where-is-my-kogi.herokuapp.com/" target="_blank"> Where's My Kogi</a><br />
-    <small> Still in its early stages. Where's My Kogi is a web application built using NodeJS, MongoDB, Express. It is a Korean bbq tracker that logs the user's restaurant visited along with some information about the restaurant. I created it with the purpose of getting users a chance to keep track of Korean bbq as well as to provide some information about what a Korean bbq usually entails. Check out  to log your newly discovered Kbbq restaurants! </small> </p>
-  </div>
-
-  <div class="Apps">
-    <img src="./images/Cooking.jpg">
-  </div>
-
-  <div class="About_Apps">
-    <p> <a href="https://afternoon-everglades-38921.herokuapp.com/#/" target="_blank"> What's Cooking</a> <br />
-    <small> A web application designed for weekly food planning to lead a healthy lifestyle. It is built using a full MEAN stack (MongoDB, Experss, Angular, and NodeJS). A group project that allowed us to experience a remote group interaction using Github repos to push/pull and merge code for collaboration purposes. It is a project that allowed me to appreciate github technologies in relation to version control. </small> </p>
-  </div>
-
-  <div class="Apps">
-    <img src="./images/Topshelf.jpg">
-  </div>
-
-  <div class="About_Apps">
-    <p> <a href="https://my-books-application.herokuapp.com/#/" target="_blank"> Topshelf Imaginations</a> <br />
-    <small> A two day MEAN stack project that is able to create a full CRUD for a library collections of all the users in the site. I created a simplified library collection that is simple in looks as it logs the data as if the user is writing on a notebook with the tab styling in the front end.  </small></p>
-  </div>
-</div>
-
-<div class="tech"> </div>
-
-<div id="contact" >
-    <h1> Contact </h1>
-    <div class="block-line"></div>
-</div>
-
-  <div class="social_media">
-    <a class="linkedin" href="https://www.linkedin.com/pub/david-paolo-chua/58/116/773" target="_blank">
-          <img src="./images/LinkedIn.png"  alt="View David Paolo Chua's profile on LinkedIn">
-    </a>
-    <a class="github" href="https://github.com/david-chua">
-      <img src= "./images/Github.png" alt="David's Github" target="_blank">
-    </a>
-    <a class="instagram" href="https://www.instagram.com/dp_chua/" target="_blank">
-      <img src="./images/Instagram.png" alt="David's Instagram">
-    </a>
-    <a class="mail" href="mailto:dp_chua@hotmail.com?subject=feedback"><img src="./images/Email.png" alt="Email me">
-    </a>
   </div>
 
 
-
+  </body>
 </html>
